@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet"  type="text/css" href="todolist.css"/>
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="toDoDiv">
+        <form method="POST" id="toDoForm">
+            <ul>
+               <li><input type="text" id="taskBox"/></li>
+              <li><input type="button" id="taskSubmit" value="Create" autocomplete="off"/> </li>
+            </ul>
+        </form>
+    </div>
+    <div id="savedTasks" class="hidden">
+    </div>
+</body>
+<script src="todolist.js"></script>
+</html>
